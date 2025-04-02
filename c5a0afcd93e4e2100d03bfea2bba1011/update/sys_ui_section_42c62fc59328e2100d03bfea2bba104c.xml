@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="vending_machine_service" section_id="42c62fc59328e2100d03bfea2bba104c" sys_domain="global" table="x_1675780_4dot_m_0_vending_machine_service" version="3" view="Vending_Machine_Service">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>vending_machine_service</caption>
+            <header>false</header>
+            <name>x_1675780_4dot_m_0_vending_machine_service</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-03-26 12:43:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42c62fc59328e2100d03bfea2bba104c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1675780_4dot_m_0_vending_machine_service</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="4Dot Machine Service" source="x_1675780_4dot_m_0">c5a0afcd93e4e2100d03bfea2bba1011</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="4Dot Machine Service">c5a0afcd93e4e2100d03bfea2bba1011</sys_scope>
+            <sys_update_name>sys_ui_section_42c62fc59328e2100d03bfea2bba104c</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-03-26 13:02:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Vending Machine Service" name="Vending_Machine_Service">c6c6ebc59328e2100d03bfea2bba1080</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

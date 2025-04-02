@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1675780_4dot_m_0.Service admin" name="x_1675780_4dot_m_0.Service admin">8910d81d93e8e2100d03bfea2bba10ba</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 15:44:02</sys_created_on>
+        <sys_id>8510d81d93e8e2100d03bfea2bba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8910d81d93e8e2100d03bfea2bba10ba</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1675780_4dot_m_0">c5a0afcd93e4e2100d03bfea2bba1011</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">c5a0afcd93e4e2100d03bfea2bba1011</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8510d81d93e8e2100d03bfea2bba10bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 15:44:02</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

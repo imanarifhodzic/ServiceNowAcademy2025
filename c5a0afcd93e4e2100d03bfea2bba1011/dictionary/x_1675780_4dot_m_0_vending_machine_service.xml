@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7e412f019328e2100d03bfea2bba1050" label="Vending Machine Service" max_length="40" name="x_1675780_4dot_m_0_vending_machine_service" type="collection">
+        <element choice="3" label="content type" max_length="40" name="content_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="drinks" sequence="1" value="drinks"/>
+                <element inactive_on_update="false" label="food" sequence="0" value="food"/>
+            </choice>
+        </element>
+        <element choice="3" label="state" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="refill request" sequence="4" value="refill_request"/>
+                <element inactive_on_update="false" label="operational" sequence="1" value="operational"/>
+                <element inactive_on_update="false" label="disabled" sequence="0" value="disabled"/>
+                <element inactive_on_update="false" label="in stock" sequence="5" value="in_stock"/>
+                <element inactive_on_update="false" label="pending servicing" sequence="2" value="pending_servicing"/>
+                <element inactive_on_update="false" label="pending repairs" sequence="3" value="pending_repairs"/>
+            </choice>
+        </element>
+        <element label="date of installation" max_length="40" name="date_of_installation" type="glide_date"/>
+        <element label="service group" mandatory="true" max_length="40" name="service_group" type="string"/>
+        <element choice="3" label="type of ownership" max_length="40" name="type_of_ownership" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Owned" sequence="0" value="owned"/>
+                <element inactive_on_update="false" label="Leased" sequence="1" value="leased"/>
+            </choice>
+        </element>
+        <element label="last time serviced" max_length="40" name="last_time_serviced" type="glide_date_time"/>
+        <element label="current owner" max_length="32" name="current_owner" reference="core_company" type="reference"/>
+        <element label="name" max_length="255" name="name" type="string"/>
+        <element label="date of purchase" max_length="40" name="date_of_purchase" type="glide_date"/>
+        <element label="journal" max_length="32" name="journal" reference="cmdb_datasource_last_update" type="reference"/>
+        <element label="location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="current_owner"/>
+        </index>
+        <index name="index2">
+            <element name="journal"/>
+        </index>
+        <index name="index3">
+            <element name="service_group"/>
+        </index>
+    </element>
+</database>
